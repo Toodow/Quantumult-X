@@ -1,0 +1,5 @@
+[Script]
+http-response https?:\/\/.*\.tiktokv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list|aweme\/favorite) script-path=https://raw.githubusercontent.com/jinchenwuheikeji/Quantumult_X/master/tiktok.js, requires-body=true, timeout=10, tag=TK去水印
+
+[MITM]
+hostname = hostname = *.tiktokv.com
