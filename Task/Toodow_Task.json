@@ -3,11 +3,11 @@
     "description": "https://github.com/Toodow/Quantumult-X", 
     "task": [
         {
-            "config": "20 11 8 * * * https://raw.githubusercontent.com/Toodow/Quantumult-X/main/Task/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true", 
+            "config": "*/14 5-23 * * * https://raw.githubusercontent.com/Toodow/Quantumult-X/main/Task/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true", 
             "addons": "https://raw.githubusercontent.com/Toodow/Quantumult-X/main/rewtite/youth/qx_rewite.txt, tag=中青看点, update-interval=-1, opt-parser=false, enabled=true"
         }, 
         {
-            "config": "20 15 */2 * * * https://raw.githubusercontent.com/Toodow/Quantumult-X/main/Task/Youth_Read.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true", 
+            "config": "35 */30 */2 * * * https://raw.githubusercontent.com/Toodow/Quantumult-X/main/Task/Youth_Read.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true", 
             "addons": "https://raw.githubusercontent.com/Toodow/Quantumult-X/main/rewtite/youth/qx_youthread.txt, tag=中青阅读, update-interval=-1, opt-parser=false, enabled=true"
         }, 
         {
